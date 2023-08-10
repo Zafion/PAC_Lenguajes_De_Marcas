@@ -1,0 +1,62 @@
+/* Estilo general */
+
+.titulo {
+	background-color: slateblue;
+	color: white;
+	font-family: Tahoma;
+	padding: 10px;
+}
+
+/* Estilo ejercicio 2 */
+
+/* Comienza ejercicio */
+
+/* El formulario tiene tres agrupaciones de elementos de entrada. */
+
+/*Los encabezados de las agrupaciones usan el tipo de letra Verdana */
+.heading {
+	font-family: Verdana;
+}
+
+
+/* y el resto del texto usan el tipo de letra Calibri. */ 
+.resto {
+	font-family: Calibri;
+
+	/* No lo indica en las instrucciones, pero el fondo tiene el mismo color que el texto del boton de pago*/
+	background-color: skyblue;	
+
+	/* No lo indica en las instrucciones, pero para igualar el ejemplo del pdf la fuente tiene que ser negrita*/
+	font-weight: bold;
+
+	/* No lo indica en las instrucciones, pero para igualar el ejemplo del pdf la fuente tiene el mismo color 
+	que el fondo del boton de pago*/
+	color: darkblue;
+}
+
+
+
+/* En el tercero. Las imágenes de las opciones tienen un ancho de 50 píxeles */
+.imageOtion { 
+	width: 50px;
+}
+
+/* Un elemento para enviar el formulario con la apariencia que se ve en la imagen que tiene las 
+siguientes características: una separación del contenido con el borde de 25 pixeles, 
+color de fondo darkblue, color de texto skyblue y tamaño del texto el doble de la de la fuente (em).*/
+.payButton {
+	padding: 25px;
+	background-color: darkblue;
+	color: skyblue;
+	font-size: 2em;
+}
+
+
+
+/* Los requisitos que debe tener esta página son:
+• El botón de volver ... tiene las mismas propiedades que el "botón de pago".
+• El tipo de letra de este enlace es Arial o Impact y no tiene la línea de subrayado. */
+#backButton {
+	font-family: Impact;
+	text-decoration: none;
+}

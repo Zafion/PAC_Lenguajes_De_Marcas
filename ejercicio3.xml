@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>  <!-- Completa el encabezado -->
+<!DOCTYPE eurovision [
+  <!ELEMENT eurovision (candidatura+)>
+  <!ELEMENT candidatura (pais, titulo, artista, idioma+, video)>
+  <!ELEMENT pais (#PCDATA)>
+  <!ELEMENT titulo (original, castellano)>
+  <!ELEMENT original (#PCDATA)>
+  <!ELEMENT castellano (#PCDATA)>
+  <!ELEMENT artista (#PCDATA)>
+  <!ELEMENT idioma (#PCDATA)>
+  <!ELEMENT video (#PCDATA)>
+]> 
+
+<eurovision>
+
+	<candidatura><!-- Cada una de las filas de la tabla sera una candidatura. Continua desde aqui -->
+	  <pais>Alemania</pais>  <!-- Primera y sus columna y primer elemento de la misma -->
+      <titulo>  <!-- Segunda columna -->
+        <original>Rockstars</original> <!-- Primera subcolumna de titulo y primer elemento de la misma -->
+        <castellano>Estrellas del rock</castellano> <!-- Segunda subcolumna de titulo y primer elemento de la misma -->
+    </titulo>
+    <artista>Malik Harris</artista> <!-- Tercera columna y primer elemento de la misma -->
+    <idioma>Inglés</idioma> <!-- Cuarta columna y primer elemento de la misma -->
+    <video>D3FN2umFaM8</video> <!-- Quinta columna y primer elemento de la misma -->
+	</candidatura>
+
+	<candidatura>
+	  <pais>España</pais> <!-- Segundo elemento de primera columna -->
+    <titulo>
+      <original>SloMo</original> <!-- Segundo elemento de Primera subcolumna de titulo -->
+      <castellano>Cámara lenta</castellano> <!-- Segundo elemento de Segunda subcolumna de titulo -->
+    </titulo>
+    <artista>Chanel</artista> <!-- Segundo elemento de tercera columna -->
+    <idioma>Español</idioma> <!-- Segundo elemento de cuarta Columna, tiene 2 idiomas,  este es el primero-->
+    <idioma>Inglés</idioma>   <!-- Segundo elemento de cuarta Columna, tiene 2 idiomas, este es el segundo-->
+    <video>TO2yGXVQCfo</video> <!-- Segundo elemento de Quinta Columna -->
+	</candidatura>
+
+	<candidatura>
+	  <pais>Finlandia</pais> <!-- Tercer elemento de primera columna -->
+    <titulo>
+      <original>Jezebel</original> <!-- Tercer elemento de Primera subcolumna de titulo -->
+      <castellano>Jezebel</castellano> <!-- Tercer elemento de Segunda subcolumna de titulo -->
+    </titulo>
+    <artista>The Rasmus</artista>  <!-- Tercer elemento de tercera columna -->
+    <idioma>Inglés</idioma> <!-- Tercer elemento de cuarta Columna -->
+    <video>XtMfCf3vFbc</video> <!-- Tercer elemento de quinta Columna -->
+	</candidatura>
+
+	<candidatura>
+	  <pais>Italia</pais> <!-- Cuarto elemento de primera columna -->
+    <titulo>
+      <original>Brividi</original> <!-- Cuarto elemento de Primera subcolumna de titulo -->
+      <castellano>Escalofríos</castellano> <!-- Cuarto elemento de Segunda subcolumna de titulo -->
+    </titulo>
+    <artista>Mahmood &amp; Blanco</artista>  <!-- Cuarto elemento de tercera columna. Uso &amp; para el simbolo &-->     
+    <idioma>Italiano</idioma> <!-- Cuarto elemento de cuarta Columna -->
+    <video>4MgMhzfUmiA</video> <!-- Cuarto elemento de quinta Columna -->
+	</candidatura>
+
+	<candidatura>
+	  <pais>Ucrania</pais> <!-- Quinto elemento de primera columna -->
+    <titulo>
+      <original>Stefania</original> <!-- Quinto elemento de Primera subcolumna de titulo -->
+      <castellano>Estefanía</castellano> <!-- Quinto elemento de Segunda subcolumna de titulo -->
+    </titulo>
+    <artista>Kalush Orchstra</artista>  <!-- Quinto elemento de tercera columna -->
+    <idioma>Ucraniano</idioma>  <!-- Quinto elemento de cuarta Columna -->
+    <video>UiEGVYOruLk</video>  <!-- Quinto elemento de quinta Columna -->
+	</candidatura>
+
+</eurovision>

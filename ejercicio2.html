@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Ejercicio 2</title>
+	<link rel="stylesheet" type="text/css" href="ejercicio2.css"> <!-- Enlace a ejercicio2.css con estilos -->
+
+</head>
+<body>
+	<h1 class="titulo">Ejercicio 2. Venta de entradas</h1>
+	<!-- Empieza el ejercicio  -->
+
+	<form action="ejercicio2b.html" method="GET" class="resto">		<!-- seleccion de estilo resto -->
+		<!-- El formulario deberá abrir una nueva página y enviar toda la información de forma visible por la URL.
+			enlazado a ejercicio2b.html de forma visible con "GET"-->
+		<fieldset>
+			<legend class="heading">Entradas</legend><br> <!-- seleccion de estilo heading e identificado con Entradas-->
+			<!-- Todos los elementos de entrada tienen que estar identificados para poder procesar posteriormente la 
+			información. En aquellos que sea necesario, hay que especificar su valor para que luego pueda procesarse 
+			correctamente.-->
+
+			<label for="tickets">Número de entradas:</label>
+			<!-- En el primero tiene dos menús desplegables:
+				* Número de entradas, con 5 opciones. -->				
+			<select name="tickets">
+				<option value="1">1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+				<option value="4">4</option>
+				<option value="5">5</option>
+			</select><br><br>
+
+			<!-- * Categorías, con 3 opciones.-->
+			<label for="posicion">Categoría:</label><br>
+			<select name="posicion">
+				<option value="general">Pista General</option>
+				<option value="lateral">Pista Lateral</option>
+				<option value="palco">Palco</option>
+			</select><br><br>			
+		</fieldset>
+
+		<!-- En el segundo tiene tres elementos de entrada y un selector de fecha -->
+		<fieldset>
+			<!-- seleccion de estilo heading e identificado con Datos del comprador-->
+			<legend class="heading">Datos del comprador</legend><br> 
+			<label for="nombre">Nombre:</label>
+			<input type="text" name="nombre"><br><br>
+			<label for="apellidos">Apellidos:</label>
+			<input type="text" name="apellidos"><br><br>
+			<label for="mail">E-Mail:</label>
+			<input type="email" name="mail"><br><br>
+			<label for="fechaNac">Fecha de nacimiento:</label>
+			<input type="date" name="fecha"><br><br>
+		</fieldset>
+
+		<!-- En el tercero, permite seleccionar entre 4 posibles opciones de compra (pudiendo elegir solo una de ellas) 
+		y una casilla de verificación.-->
+		<fieldset>
+			<legend class="heading">Pago</legend><br>	<!-- seleccion de estilo heading e identificado con Pago-->
+			<label for="tipoDePago">Selecciona método de pago:</label><br><br>
+			<!-- seleccion de ancho de imagenes con imageOtion-->
+			<input type="radio" name="tipo" value="Visa"><img src="img/visalogo.png" class="imageOtion"><br>	
+			<!-- seleccion de ancho de imagenes con imageOtion-->
+			<input type="radio" name="tipo" value="Mastercard"><img src="img/masterlogo.png" class="imageOtion"><br> 
+			<!-- seleccion de ancho de imagenes con imageOtion-->
+			<input type="radio" name="tipo" value="Paypal"><img src="img/paypallogo.png" class="imageOtion"><br> 
+			<!-- seleccion de ancho de imagenes con imageOtion-->
+			<input type="radio" name="tipo" value="Bizum"><img src="img/bizumlogo.jpg" class="imageOtion"><br><br> 
+			<input type="checkbox" name="terminos" value="aceptaTerminos">
+			<label for="condiciones">Acepto las condiciones de compra</label><br><br>
+		<!-- Un elemento para enviar el formulario-->
+		<!-- seleccion de caracteristicas de payButton-->
+			<input type="submit" name="enviar" value="Proceder al pago" class="payButton" ><br><br> 
+		</fieldset>
+	</form>
+</body>
+</html>

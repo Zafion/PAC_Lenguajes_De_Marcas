@@ -18,8 +18,6 @@ Las instrucciones en detalle del ejercicio se pueden consultar en el archívo LM
 
 ## Capturas:
 
-| Ejercicio 1 | Ejercicio 2A y 2B |
-|:--:|:--:|
 | [![Ejercicio 1](https://github.com/Zafion/PAC_Lenguajes_De_Marcas/blob/main/recursos/Captura1.JPG)](https://github.com/Zafion/PAC_Lenguajes_De_Marcas/blob/main/recursos/Captura1.JPG) | [![Ejercicio 2A](https://github.com/Zafion/PAC_Lenguajes_De_Marcas/blob/main/recursos/Captura2.JPG)](https://github.com/Zafion/PAC_Lenguajes_De_Marcas/blob/main/recursos/Captura2.JPG) |
 
 [![Ejercicio 2B](https://github.com/Zafion/PAC_Lenguajes_De_Marcas/blob/main/recursos/Captura2B.JPG)](https://github.com/Zafion/PAC_Lenguajes_De_Marcas/blob/main/recursos/Captura2B.JPG)

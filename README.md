@@ -1,18 +1,18 @@
-# [![CSS](https://github.com/Zafion/PAC_Lenguajes_De_Marcas/blob/main/recursos/css_36.png)](https://github.com/Zafion/PAC_Ap_Gest_Gastos) [![HTML](https://github.com/Zafion/PAC_Lenguajes_De_Marcas/blob/main/recursos/html_36.png)](https://github.com/Zafion/PAC_Ap_Gest_Gastos) PAC_Lenguajes_De_Marcas - 4 ejercícios
+# [![CSS](https://github.com/Zafion/PAC_Lenguajes_De_Marcas/blob/main/recursos/css_36.png)](https://github.com/Zafion/PAC_Ap_Gest_Gastos) [![HTML](https://github.com/Zafion/PAC_Lenguajes_De_Marcas/blob/main/recursos/html_36.png)](https://github.com/Zafion/PAC_Ap_Gest_Gastos) PAC_Lenguajes_De_Marcas - 4 ejercicios
 
-Desarrollado con HTML, CSS y usando Sublime Text.
+Desarrollado con HTML y CSS utilizando Sublime Text.
 
-Trabajo de desarrollo realizado durante la formación del segundo semestre del Ciclo Superior De Desarrollo De Aplicaciones Multiplataforma.
+Trabajo de desarrollo realizado durante el segundo semestre del Ciclo Superior de Desarrollo de Aplicaciones Multiplataforma.
 Corresponde a la asignatura de Lenguajes de marcas.
 
-La práctica consiste en crear una aplicación de gestión de gastos personales. A través de un menú interactivo por la consola, introducir ingresos y gastos para así poder llevar un pequeño control de nuestra economía.
+La práctica consiste en crear una aplicación de gestión de gastos personales. A través de un menú interactivo en la consola, se pueden introducir ingresos y gastos para llevar un pequeño control de nuestra economía.
 
 	* Ejercicio 1: Tracklist de un disco - Crear una página web que contenga la información de un disco de música.
-	* Ejercicio 2A: Venta de entradas - Crear una página web que contenga un formulario para la compra de entradas. Comparte fichero CSS con Ejercicio 2B.
-	* Ejercicio 2B: Compra realizada con éxito - Crear una segunda que simule la confirmación de la compra. Comparte fichero CSS con Ejercicio 2A.
-	* Ejercicio 3: Eurovision. Crear un fichero XML bien formado que contenga la información que contiene la tabla de las instrucciones.
+	* Ejercicio 2A: VVenta de entradas - Crear una página web que incluya un formulario para la compra de entradas. Comparte el archivo CSS con Ejercicio 2B.
+	* Ejercicio 2B: Compra realizada con éxito - Crear una segunda página que simule la confirmación de la compra. Comparte el archivo CSS con Ejercicio 2A.
+	* Ejercicio 3: Eurovisión. Crear un archivo XML bien formado que contenga la información de la tabla de las instrucciones.
 
-Las instrucciones en detalle del ejercicio se pueden consultar en el archívo LM PAC de Desarrollo 2S2122.pdf
+Las instrucciones detalladas del ejercicio se pueden consultar en el archivo https://github.com/Zafion/PAC_Lenguajes_De_Marcas/blob/main/LM%20PAC%20de%20Desarrollo%202S2122.pdf
 
 </br>
 
